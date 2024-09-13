@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Red line at the top -->
+    <item android:top="0dp">
+        <shape>
+            <size android:height="2dp" /> <!-- Thickness of the red line -->
+            <solid android:color="@color/red_line_color" /> <!-- Red line color -->
+        </shape>
+    </item>
+
+    <!-- White background for the BottomNavigationView -->
+    <item android:top="1dp">
+        <shape>
+            <solid android:color="@color/white" /> <!-- Background color -->
+        </shape>
+    </item>
+</layer-list>

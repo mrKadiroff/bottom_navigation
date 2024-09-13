@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/heart"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/messages_2"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/users"
+        android:icon="@drawable/people"
+        android:title="Users" />
+
+    <item
+        android:id="@+id/anonym"
+        android:icon="@drawable/lock"
+        android:title="Anonym" />
+
+</menu>
